@@ -1,0 +1,19 @@
+{"type":"entity","name":"Campaign: The Jesse Pinkman Story","entityType":"campaign","observations":["Campaign ID 7UKTMjZD in gamemaster-mcp; file: Documents\\GamemasterCampaigns\\campaigns\\Breaking Bad  The Jesse Pinkman Story.json","Season 2 start ('Milk Drop' era); player is Angel as Jesse Pinkman (chargen Fixer L3, HP15 AC13, 3d8)","Tone: gritty crime drama, lethal realism; on death: LEGACY or one earned REWIND (undo only the fatal action)","Canon: soft divergence — S2 clocks arrive unless player actions materially change them","Tracked arcs: relationships / reputation / money+supply / faction tension (Tuco vs rivals, DEA heat)"]}
+{"type":"entity","name":"Jesse Pinkman","entityType":"player-character","observations":["Angel's character. 29, street dealer, recovering from Emilio/Krazy-8 fallout","Skill set: dealing, getaway driving, fast lies — bad when family asks","Cash on hand $612 + $1,900 under the sink (pre-meet sale pending)"]}
+{"type":"entity","name":"Walter White","entityType":"npc","observations":["Jesse's chemistry partner; cover teacher, terminal lung cancer diagnosis (secret)","AUTO: skim doctrine started — cash math never fully reaches Jesse"]}
+{"type":"entity","name":"Tuco Salamanca","entityType":"npc","observations":["Distributor, junkyard boss; pathological; No-Doze (mouth) + Gonzo (hands)","AUTO: grinds pure meth himself — paranoia escalates with feed levels"]}
+{"type":"entity","name":"Jane Margolis","entityType":"npc","observations":["Next-door neighbor & ally-in-progress; recovering user — steady day-to-day, relapse threat only if someone keeps leaving product 'gifts' around"]}
+{"type":"entity","name":"DEA Net","entityType":"pressure-clock","observations":["Hank Schrader chases 'Cap'n Cook' patterns; raid calendar tightens with radar incidents","AUTO: every loud street incident adds heat ticks"]}
+{"type":"entity","name":"Hank Schrader","entityType":"npc","observations":["DEA Special Agent (Albuquerque); Walt's brother-in-law; hunts 'Cap'n Cook' patterns, not faces","AUTO: owns the raid calendar — every loud street incident adds heat ticks"]}
+{"type":"entity","name":"Skinny Pete","entityType":"npc","observations":["Loyal street crew; deadpan, secret piano talent; handles street-sale logistics"]}
+{"type":"entity","name":"Badger","entityType":"npc","observations":["Loyal street crew; walking distraction; loyal proportionally to ceremony"]}
+{"type":"entity","name":"Combo","entityType":"npc","observations":["Street crew; corners, cars, houses; has been quiet lately","AUTO: a rival corner crew has been sounding him out about a side deal (clock running)"]}
+{"type":"relation","from":"Jesse Pinkman","to":"Walter White","relationType":"partners with (uneasy)"}
+{"type":"relation","from":"Jesse Pinkman","to":"Tuco Salamanca","relationType":"sells to (dangerous)"}
+{"type":"relation","from":"Jesse Pinkman","to":"Jane Margolis","relationType":"neighbor ally"}
+{"type":"relation","from":"Jesse Pinkman","to":"Skinny Pete","relationType":"street crew"}
+{"type":"relation","from":"Jesse Pinkman","to":"Badger","relationType":"street crew"}
+{"type":"relation","from":"Jesse Pinkman","to":"Combo","relationType":"street crew"}
+{"type":"relation","from":"Hank Schrader","to":"Walter White","relationType":"brother-in-law of"}
+{"type":"relation","from":"DEA Net","to":"Jesse Pinkman","relationType":"closing on"}
+{"type":"relation","from":"Jesse Pinkman","to":"Campaign: The Jesse Pinkman Story","relationType":"protagonist of"}
